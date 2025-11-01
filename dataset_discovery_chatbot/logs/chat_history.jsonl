@@ -1,0 +1,4 @@
+{"timestamp": "2025-11-01T18:08:29.849175", "user_input": "can u tell which water fountain is good in postdsam", "bot_response": "\nChatbot: You've selected 'waterfountains'. Proceeding with this dataset.", "matched_datasets": []}
+{"timestamp": "2025-11-01T18:08:44.562513", "user_input": "which location is good", "bot_response": "Berlin_Water_Fountains", "matched_datasets": []}
+{"timestamp": "2025-11-01T18:09:01.534588", "user_input": "give me one location", "bot_response": "Berlin_Wasserbrunnen", "matched_datasets": []}
+{"timestamp": "2025-11-01T18:09:09.131420", "user_input": "exit", "bot_response": "\nChatbot: Goodbye! Have a great day! 👋", "matched_datasets": []}

@@ -1,0 +1,36 @@
+[
+    {
+    "dataset": "trinkbrunnen",
+    "filename": "trinkbrunnen-in-steglitz-zehlendorf.csv",
+    "file_url": "https://www.berlin.de/ba-steglitz-zehlendorf/service/daten/trinkbrunnen-in-steglitz-zehlendorf.csv",
+    "description": "the table lists public drinking water fountains in the district Steglitz-Zehlendorf or Berlin. Each row represents one drinking water fountain.",
+    "columns": [
+        {"name": "Nr", "type": "int", "description": "irrelevant, a number used to organize the data"},
+        {"name": "Name", "type": "str", "description": "name of the drinking water fountain, it may refer to a well-known place"},
+        {"name": "Strasse", "type": "str", "description": "the street where the drinking water fountain is located"},
+        {"name": "Hausnummer", "type": "str", "description": "the house number the drinking water fountains location or street address"},
+        {"name": "PLZ", "type": "str", "description": "the postal code of the drinking water fountains location or street address"},
+        {"name": "Ort", "type": "str", "description": "irrelevant, the location is Berlin in all cases"}
+        ]
+    },
+    {
+        "dataset": "fahrraddiebstaehle",
+        "filename": "Fahrraddiebstahl.csv",
+        "description": "the table lists bike thefts in the years 2024 and 2025. Each row represents one bike theft event",
+        "url": "https://daten.berlin.de/datensaetze/fahrraddiebstahl-in-berlin",
+        "file_url": "https://www.polizei-berlin.eu/Fahrraddiebstahl/Fahrraddiebstahl.csv",
+        "columns": [
+            {"name": "ANGELEGT_AM", "type": "timestamp", "description": "when the record was created"},
+            {"name": "TATZEIT_ANFANG_DATUM", "type": "timestamp", "description": "begin of the time span where the theft happened"},
+            {"name": "TATZEIT_ANFANG_STUNDE", "type": "int", "description": "hour at the begin of the time span where the theft happened"},
+            {"name": "TATZEIT_ENDE_DATUM", "type": "timestamp", "description": "end of the time span where the theft happened"},
+            {"name": "TATZEIT_ENDE_STUNDE", "type": "int", "description": "hour at the end of the time span where the theft happened"},
+            {"name": "LOR", "type": "int", "description": "code of the city location (LOR)"},
+            {"name": "SCHADENSHOEHE", "type": "int", "description": "approximate damage"},
+            {"name": "VERSUCH", "type": "str", "description": "attempted theft (Ja) or successful theft (Nein)"},
+            {"name": "ART_DES_FAHRRADS", "type": "str", "description": "type of bike"},
+            {"name": "DELIKT", "type": "str", "description": "type of crime"},
+            {"name": "ERFASSUNGSGRUND", "type": "str", "description": "reason for recording the event"}
+        ]
+    }
+]

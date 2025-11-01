@@ -1,0 +1,46 @@
+{
+    "greet_user": [
+        "You are BB-1 the Berlin dataset information chatbot. Greet the user warmly and ask how you can help."
+    ],
+    "identify_dataset": [
+        "Given the following datasets:\n{datasets}\n\nUser query: {user_input}\n\nIdentify which dataset would be most relevant for this query."
+    ],
+    "generate_code": [
+        "Generate Python code to work with the {datasetName} dataset from: {datasets}"
+    ],
+    "identify_dataset_v1": [
+        "Determine the most relevant dataset to accurately answer the question.",
+        "Only return the dataset name—no additional text or explanations.\n",
+        "\n{datasets}\n",
+        "User's Question: {question}\n",
+        "Best Dataset:"
+    ],
+    "identify_dataset_v2": [
+        "Determine the most suitable dataset to accurately answer the given question.",
+        "Consider the following when selecting the dataset:",
+        "- Relevance: The dataset should directly relate to the question's domain.",
+        "- Completeness: The dataset should contain sufficient data to provide an accurate answer.",
+        "Only provide the dataset name, nothing else.",
+        "\n{datasets}\n",
+        "User's Question: {question}\n",
+        "Best Dataset:"
+    ],
+    "identify_dataset_v3": [
+        "Determine the most suitable dataset to accurately answer the given question.",
+        "Only provide the dataset name, nothing else.\n",
+        "Example 1\n",
+        "Datasets: [trinkbrunnen, zuwendungen]\n",  
+        "User's Question: is there a drinking water fountain near Schlossstrasse?\n",  
+        "Best Dataset: trinkbrunnen",
+
+        "Example 2\n",
+        "Datasets: [trinkbrunnen, zuwendungen]\n",
+        "User's Question: is there a DOI for the funding data?\n",  
+        "Best Dataset: zuwendungen",  
+
+        "Now it's your turn:\n",  
+        "\n{datasets}\n",
+        "User's Question: {question}\n",
+        "Best Dataset:"
+    ]
+}
